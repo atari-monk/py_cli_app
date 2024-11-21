@@ -32,7 +32,7 @@ python -m cli_app.app
 3. Install any required dependencies using:
 
 ```bash
-pip install -r requirements.txt
+pip install dependency
 ```
 
 ## Configuration
