@@ -23,7 +23,6 @@ def test_get_help_full():
     # Verify global commands
     assert "help" in result
     assert "exit" in result
-    assert "set_folder [folder_name]" in result
 
     # Verify folder-specific commands
     assert "Folder1 commands:" in result
@@ -53,7 +52,6 @@ def test_get_help_no_folders():
     # Verify global commands
     assert "help" in result
     assert "exit" in result
-    assert "set_folder [folder_name]" in result
     
     # No folder-specific commands should be displayed
     assert "commands:" not in result

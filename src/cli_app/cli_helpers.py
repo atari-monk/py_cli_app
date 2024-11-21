@@ -26,7 +26,6 @@ def get_help(folders: dict[str, dict[str, dict[str, str]]], selected_folder: Opt
     length = COMMAND_NAME_MAX_LENGTH
     help.append(f"\n  help{generate_padding(length, 'help')}- Show this help message")
     help.append(f"  exit{generate_padding(length, 'exit')}- Exit the program")
-    help.append(f"  set_folder [folder_name]{generate_padding(length, 'set_folder')}- Set folder context")
     
     for folder_name, commands in folders.items():
         help.append(f"\n{folder_name} commands:")

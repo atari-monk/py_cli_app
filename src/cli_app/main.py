@@ -24,15 +24,7 @@ def main() -> None:
             break
 
         elif user_input.lower() == "help":
-            logger.info(get_help(commands, selected_folder))
-
-        elif user_input.lower().startswith("set_folder"):
-            folder_name = user_input.split(maxsplit=1)[-1]
-            if folder_name in folders:
-                selected_folder = folder_name
-                logger.info(f"Folder context set to: {folder_name}")
-            else:
-                logger.info(f"Folder '{folder_name}' not found. Available: {folders}")                
+            logger.info(get_help(commands, selected_folder))               
         else:
             execute_user_input(user_input, commands, selected_folder)
 

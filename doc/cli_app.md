@@ -14,10 +14,8 @@ cli/                            # Root folder of repository
 │   └── cli_app/                # CLI application module
 │   │   ├── __init__.py         # Module initializer
 │   │   ├── app.py              # Main CLI logic
-│   └── log_project/            # Log project module
+│   └── example/                # Example project module
 │   │   ├── __init__.py         # Module initializer
-│   │   ├── lib                 # Code
-|   |   |   ├── __init__.py     # Module initializer
 |   │   ├──                     # Commands src
 |   └── shared/                 # Shared code
 |   |   ├── __init__.py         # Module initializer
@@ -25,7 +23,6 @@ cli/                            # Root folder of repository
 |   └── tests/                  # Tests
 ├── .gitignore                  # Git ignore rules
 ├── README.md                   # Project documentation
-├── requirements.txt            # Dependencies list
 ```
 
 ### File name convention

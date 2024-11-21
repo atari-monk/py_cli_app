@@ -1,4 +1,4 @@
 def run(_ = None):
     print("This is an example command!")
 
-description = "Prints a simple example message"
+description = "Prints a simple example message from commands folder"

@@ -1,14 +1,13 @@
 {
     "commands": {
         "clear": { "description": "Clear the console screen" },
-        "example": { "description": "Prints a simple example message" }
-    },
-    "log_project": {
         "example": {
-            "description": "Prints a simple example message from log project"
+            "description": "Prints a simple example message form commands folder"
         }
     },
-    "editor": {
-        "md_to_text": { "description": "Converter for md to text" }
+    "example": {
+        "example": {
+            "description": "Prints a simple example message form example folder"
+        }
     }
 }
