@@ -1,0 +1,14 @@
+{
+    "commands": {
+        "clear": { "description": "Clear the console screen" },
+        "example": { "description": "Prints a simple example message" }
+    },
+    "log_project": {
+        "example": {
+            "description": "Prints a simple example message from log project"
+        }
+    },
+    "editor": {
+        "md_to_text": { "description": "Converter for md to text" }
+    }
+}
