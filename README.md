@@ -43,7 +43,8 @@ The app uses a logger for tracking operations and settings can be configured in 
 
 ## Documentation
 
-[Docs](/docs/index.md)
+[Docs/repo pages](/docs/index.md)
+[Docs/github pages](https://atari-monk.github.io/py_cli_app/)
 
 ## Add more commands
 
