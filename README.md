@@ -39,4 +39,8 @@ pip install dependency
 
 The app uses a logger for tracking operations and settings can be configured in the `cli_app/config.py` file.
 
+## Documentation
+
+[Docs](/docs/index.md)
+
 ---
