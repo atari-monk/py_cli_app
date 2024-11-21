@@ -1,5 +1,7 @@
 # Simple Python CLI App
 
+**For storing py scripts as cli commands.**
+
 ## Features/Requirements
 
 -   A simple command-line interface (CLI) app with a command loop.
@@ -42,5 +44,17 @@ The app uses a logger for tracking operations and settings can be configured in 
 ## Documentation
 
 [Docs](/docs/index.md)
+
+## Add more commands
+
+-   Add folder to src.
+-   Add empty **init**.py.
+-   Add commands command.py with function run.
+-   Use lib folder to store code shared by commands.
+
+```python
+def run(args = None):
+#...
+```
 
 ---
