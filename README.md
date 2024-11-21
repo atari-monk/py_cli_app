@@ -4,8 +4,8 @@
 
 ## Features/Requirements
 
--   A simple command-line interface (CLI) app with a command loop.
--   Detects and loads available folders with commands.
+- A simple command-line interface (CLI) app with a command loop.
+- Detects and loads available folders with commands.
 
 ## Usage
 
@@ -18,14 +18,14 @@ cd src
 Then run the app:
 
 ```bash
-python -m cli_app.app
+python -m cli_app.main
 ```
 
 ### Available Commands
 
--   **help**: Displays a list of available commands.
--   **clear**: Clears console.
--   **exit**: Exits the application.
+- **help**: Displays a list of available commands.
+- **clear**: Clears console.
+- **exit**: Exits the application.
 
 ## Installation
 
@@ -48,10 +48,10 @@ The app uses a logger for tracking operations and settings can be configured in 
 
 ## Add more commands
 
--   Add folder to src.
--   Add empty **init**.py.
--   Add commands command.py with function run.
--   Use lib folder to store code shared by commands.
+- Add folder to src.
+- Add empty **init**.py.
+- Add commands command.py with function run.
+- Use lib folder to store code shared by commands.
 
 ```python
 def run(args = None):
